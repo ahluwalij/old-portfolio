@@ -13,13 +13,13 @@ function About() {
           <hr/>
           <h4 className="py-2 text-xl">Education</h4>
           <p className="max-w-[400px]">
-            I have completed my Bachelor degree in Civil Engineering in 2021 at
-            Al-Hussein bin Talal University, Ma'an Jordan.
-            It was then when I decided to sign up for something I always wanted
-            to learn.. Programming!
-            Recently, I have successfully completed the (Code fellows) intensive Software Development
-            course in Python at Abdul-Aziz Ghurair School Of Advanced
-            Computing (ASAC) that started in Jan,2022 and lasted until July,2022..
+            I am completing my bachelors degree in Computer Science
+            at the University of Maryland - College Park.
+            Growing up in New York City my whole life, it is exciting to
+            travel to another state to learn my passion.
+            At the moment, I have finished my Java classes and am learning C to
+            understand programming at a very basic level. <br/>
+            My expected graduation date is November, 2024.
           </p>
           <h4 className="py-3 text-xl">Experience</h4>
             <p className="max-w-[400px]">My study of software development has hugely improved my problem solving and analytical thinking 

@@ -50,7 +50,7 @@ function About() {
     >
       <div className="flex items-center justify-between w-full h-full px-10 2xl:px-16">
         {/* <Image src={logo} alt="logo" width="200" height="100" /> */}
-        <h3 className="text-xl animate-pulse">DIALA ABUL.KHAIL</h3>
+        <h3 className="text-xl animate-pulse font-lobster">JAZZ AHLUWALIA</h3>
 
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">

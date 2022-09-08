@@ -12,6 +12,9 @@ theme: {
       type: 'type 1.8s ease-out 0.8s 1 normal both',
       'type-reverse': 'type 1.8s ease-out   both',
     },
+    fontFamily: {
+      'lobster': ['Roboto', 'sans-serif']
+    },
     keyframes: {
       type: {
         '0%': { width: '0ch' },
