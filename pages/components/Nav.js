@@ -15,7 +15,7 @@ function About() {
   const router = useRouter();
 
   useEffect(() => {
-    if (router.asPath === "/Movies" || router.asPath === "/AiTraffic") {
+    if (router.asPath === "/Datadome" || router.asPath === "/Datadome") {
       setNavBg("#1f2937");
       setLinkColor("#ecf0f3");
     } else {
@@ -48,9 +48,12 @@ function About() {
           : "fixed w-full h-20 shadow-xl "
       }
     >
+
       <div className="flex items-center justify-between w-full h-full px-10 2xl:px-16">
         {/* <Image src={logo} alt="logo" width="200" height="100" /> */}
-        <h3 className="text-xl animate-pulse">DIALA ABUL.KHAIL</h3>
+        <h3 className="text-4xl animate-pulse font-lobster pointer-events-none select-none">
+          Jazz
+        </h3>
 
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
@@ -97,10 +100,9 @@ function About() {
           }
         >
           <div className="flex items-center justify-between w-full">
-           
             {/* <Image src={logo} width="200" height="100" alt="logo" color="white"/> */}
-        <h3 className="text-xl">DIALA ABUL.KHAIL</h3>
-           
+            <h3 className="text-xl">DIALA ABUL.KHAIL</h3>
+
             <div
               onClick={handleNav}
               className="p-2 duration-300 ease-in rounded-full shadow-sm cursor-pointer shadow-white hover:scale-110"
@@ -157,7 +159,7 @@ function About() {
               <p className="py-5 tracking-widest text-teal-600 uppercase">
                 Let's Connect!
               </p> */}
-              {/* <div className="flex items-center justify-between my-full w-full sm:w-[80%]">
+            {/* <div className="flex items-center justify-between my-full w-full sm:w-[80%]">
                 <div className="p-3 duration-200 ease-in rounded-full shadow-md cursor-pointer shadow-teal-200 hover:scale-110">
                   <a href="https://www.linkedin.com/in/dialaabulkhail/">
                     <FaLinkedinIn />
@@ -178,7 +180,7 @@ function About() {
                     <BsFillPersonLinesFill />
                   </a>
                 </div> */}
-              {/* </div> */}
+            {/* </div> */}
             {/* </div> */}
           </div>
         </div>

@@ -22,3 +22,8 @@ html {
   h1 {
   }
 }
+
+@font-face {
+  font-family: "Lobster";
+  src: url("../public/assets/fonts/lobster/Lobster-Regular.ttf");
+}
