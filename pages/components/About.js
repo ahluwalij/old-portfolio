@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Image from "next/image";
 import me from "../../public/assets/me.png"
 
@@ -33,7 +32,7 @@ function About() {
             className="rounded-full "
             src={me}
             alt="me"
-            width={400}
+            width={375}
             height={400}
           />
         </div>

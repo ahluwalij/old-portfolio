@@ -1,11 +1,7 @@
 import Link from "next/link";
-import Image from "next/image";
 import { useState, useEffect } from "react";
-import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from "react-icons/ai";
-import { FaLinkedinIn, FaGithub } from "react-icons/fa";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { useRouter } from "next/router";
-// import logo from "../../public/assets/logo.png";
 
 function About() {
   const [nav, setNav] = useState(false);

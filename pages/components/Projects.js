@@ -1,9 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import datadome from "../../public/assets/projects/datadome.jpeg";
-import movie from "../../public/assets/projects/movie.png";
-import products from "../../public/assets/projects/products.png";
-import canser from "../../public/assets/projects/canser.png";
 import hash from "../../public/assets/projects/hash_banner.gif";
 
 function Projects() {

@@ -1,8 +1,7 @@
 import { AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
-import { BsFillPersonLinesFill, BsTwitter } from "react-icons/bs";
+import { BsTwitter } from "react-icons/bs";
 import Head from "next/head";
-import Script from "next/script";
 
 function Main() {
   return (
