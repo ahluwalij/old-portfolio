@@ -1,6 +1,8 @@
-import { AiOutlineMail } from "react-icons/ai";
-import { FaLinkedinIn, FaGithub } from "react-icons/fa";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import IconButton from "@mui/material/IconButton";
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GithubIcon from '@mui/icons-material/GitHub';
+import EmailIcon from '@mui/icons-material/Email';
+import TwitterIcon from '@mui/icons-material/Twitter';
 import Link from "next/link";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import Image from "next/image";
@@ -53,27 +55,18 @@ import Router from 'next/router'
                 <p className="pt-24 text-center uppercas">get in touch!</p>
 
                 <div className="flex items-center justify-between py-4 ">
-                  <div className="p-3 duration-200 ease-in rounded-full shadow-md cursor-pointer shadow-white hover:scale-125">
-                    <a href="https://www.linkedin.com/in/dialaabulkhail/">
-                      <FaLinkedinIn />
-                    </a>
-                  </div>
-                 
-                  <div className="p-3 duration-200 ease-in rounded-full shadow-md cursor-pointer shadow-white hover:scale-125">
-                    <a href="https://github.com/dialaabulkhail">
-                      <FaGithub />
-                    </a>
-                  </div>
-                  <div className="p-3 duration-200 ease-in rounded-full shadow-md cursor-pointer shadow-white hover:scale-125">
-                    <a href="mailto:diala.sh.98@gmail.com">
-                      <AiOutlineMail />
-                    </a>
-                  </div>
-                  <div className="p-3 duration-200 ease-in rounded-full shadow-md cursor-pointer shadow-white hover:scale-125">
-                    <a href="https://dialabk.hashnode.dev/">
-                      <BsFillPersonLinesFill />
-                    </a>
-                  </div>
+                <IconButton color="info" aria-label="LinkedIn" href="https://www.linkedin.com/in/jasdeep-ahluwalia/">
+              <LinkedInIcon />
+              </IconButton>
+              <IconButton color="inherit" aria-label="Github" href="https://github.com/ahluwalij">
+              <GithubIcon />
+              </IconButton>
+              <IconButton color="inherit" aria-label="Email" href="mailto:jasdeep.a@outlook.com">
+              <EmailIcon />
+              </IconButton>
+              <IconButton color="info" aria-label="Twitter" href="https://twitter.com/JazaScript">
+              <TwitterIcon />
+              </IconButton>
                 </div>
               </div>
             </div>

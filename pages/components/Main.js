@@ -1,7 +1,12 @@
-import { AiOutlineMail } from "react-icons/ai";
-import { FaLinkedinIn, FaGithub } from "react-icons/fa";
-import { BsTwitter } from "react-icons/bs";
+import React from 'react';
 import Head from "next/head";
+import IconButton from "@mui/material/IconButton";
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GithubIcon from '@mui/icons-material/GitHub';
+import EmailIcon from '@mui/icons-material/Email';
+import TwitterIcon from '@mui/icons-material/Twitter';
+
+
 
 function Main() {
   return (
@@ -10,10 +15,8 @@ function Main() {
         <title>Jazz's Career</title>
         <meta content="My page title" key="title" />
       </Head>
-      <div id="bg"></div>
 
       <div className="max-w-[750px] w-full h-full m-auto p-2 flex justify-center items-center ">
-
         <div>
           <h1 className="text-5xl">Hi, I'm Jasdeep Ahluwalia</h1>
           <div>
@@ -30,27 +33,18 @@ function Main() {
             <hr className="py-1 mt-8" />
             <div className="flex items-center justify-between max-w-[330px] m-auto p-2">
               <hr />
-
-              <div className="p-4 duration-200 ease-in rounded-full shadow-md cursor-pointer shadow-white hover:scale-125">
-                <a href="https://www.linkedin.com/in/jasdeep-ahluwalia/">
-                  <FaLinkedinIn />
-                </a>
-              </div>
-              <div className="p-4 duration-200 ease-in rounded-full shadow-md cursor-pointer shadow-white hover:scale-125">
-                <a href="https://github.com/ahluwalij">
-                  <FaGithub />
-                </a>
-              </div>
-              <div className="p-4 duration-200 ease-in rounded-full shadow-md cursor-pointer shadow-white hover:scale-125">
-                <a href="mailto:jasdeep.a@outlook.com">
-                  <AiOutlineMail />
-                </a>
-              </div>
-              <div className="p-4 duration-200 ease-in rounded-full shadow-md cursor-pointer shadow-white hover:scale-125">
-                <a href="https://twitter.com/JazaScript">
-                  <BsTwitter />
-                </a>
-              </div>
+              <IconButton color="info" aria-label="LinkedIn" href="https://www.linkedin.com/in/jasdeep-ahluwalia/">
+              <LinkedInIcon />
+              </IconButton>
+              <IconButton color="inherit" aria-label="Github" href="https://github.com/ahluwalij">
+              <GithubIcon />
+              </IconButton>
+              <IconButton color="inherit" aria-label="Email" href="mailto:jasdeep.a@outlook.com">
+              <EmailIcon />
+              </IconButton>
+              <IconButton color="info" aria-label="Twitter" href="https://twitter.com/JazaScript">
+              <TwitterIcon />
+              </IconButton>
             </div>
           </div>
         </div>

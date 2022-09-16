@@ -159,13 +159,15 @@ function Skills() {
             <div className="grid items-center justify-center grid-cols-2 gap-4">
               <div className="m-auto ">
                 <Image
-                  src="/assets/skills/material-ui.png"
+                  src="/assets/skills/material-design.png"
                   width="40px"
                   height="40px"
                 />
               </div>
-              <div className="flex flex-col items-center justify-center whitespace-nowrap lg:ml-6">
-                <h3>Material UI</h3>
+              <div className="flex flex-col items-center justify-center">
+                <h3 className="text-center w-full">
+                  Material Design
+                </h3>
               </div>
             </div>
           </div>
@@ -173,11 +175,7 @@ function Skills() {
           <div className="p-5 duration-200 ease-in rounded-full ">
             <div className="grid items-center justify-center grid-cols-2 gap-4">
               <div className="m-auto">
-                <Image
-                  src="/assets/skills/c.png"
-                  width="40px"
-                  height="40px"
-                />
+                <Image src="/assets/skills/c.png" width="40px" height="40px" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>C#</h3>
@@ -199,7 +197,6 @@ function Skills() {
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </div>
