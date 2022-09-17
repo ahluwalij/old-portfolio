@@ -17,7 +17,7 @@ function Projects() {
             <Image
               className="group-hover:opacity-10 rounded-xl"
               src={hash}
-              width="400"
+              width="450"
               height="250"
               alt="/"
             />
@@ -39,7 +39,7 @@ function Projects() {
             <Image
               className="group-hover:opacity-10 rounded-xl"
               src={datadome}
-              width="400"
+              width="450"
               height="250"
               alt="/"
             />

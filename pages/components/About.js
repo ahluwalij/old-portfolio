@@ -32,7 +32,7 @@ function About() {
             className="rounded-full "
             src={me}
             alt="me"
-            width={375}
+            width={325}
             height={400}
           />
         </div>

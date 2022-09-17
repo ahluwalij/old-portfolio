@@ -46,13 +46,9 @@ import Router from 'next/router'
                 />
               </div>
               <div>
-       
-                <p className="pt-3 pl-2 tracking-widest text-center">
-                  Available for freelance or full-time positions.
-                </p>
               </div>
               <div>
-                <p className="pt-24 text-center uppercas">get in touch!</p>
+                <p className="pt-6 text-center uppercas">Get in touch!</p>
 
                 <div className="flex items-center justify-between py-4 ">
                 <IconButton color="info" aria-label="LinkedIn" href="https://www.linkedin.com/in/jasdeep-ahluwalia/">
