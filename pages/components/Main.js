@@ -1,12 +1,10 @@
-import React from 'react';
+import React from "react";
 import Head from "next/head";
 import IconButton from "@mui/material/IconButton";
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import GithubIcon from '@mui/icons-material/GitHub';
-import EmailIcon from '@mui/icons-material/Email';
-import TwitterIcon from '@mui/icons-material/Twitter';
-
-
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GithubIcon from "@mui/icons-material/GitHub";
+import EmailIcon from "@mui/icons-material/Email";
+import TwitterIcon from "@mui/icons-material/Twitter";
 
 function Main() {
   return (
@@ -18,7 +16,12 @@ function Main() {
 
       <div className="max-w-[750px] w-full h-full m-auto p-2 flex justify-center items-center ">
         <div>
-          <h1 className="text-5xl">Hi, I'm Jasdeep Ahluwalia</h1>
+          <div className="flex flex-col gap-3">
+            <h1 className="text-5xl">Hi, I'm Jasdeep Ahluwalia</h1>
+            <h1 className="text-3xl font-lobster light" data-text="But you can call me Jazz">
+              But you can call me Jazz
+            </h1>
+          </div>
           <div>
             {/* <h2 className="py-3 text-gray-500 uppercase ">
               <span className="inline-flex h-20 pt-2 overflow-x-hidden animate-type group-hover:animate-type-reverse whitespace-nowrap text-brand-accent will-change-transform">
@@ -33,17 +36,33 @@ function Main() {
             <hr className="py-1 mt-8" />
             <div className="flex items-center justify-between max-w-[330px] m-auto p-2">
               <hr />
-              <IconButton color="info" aria-label="LinkedIn" href="https://www.linkedin.com/in/jasdeep-ahluwalia/">
-              <LinkedInIcon />
+              <IconButton
+                color="info"
+                aria-label="LinkedIn"
+                href="https://www.linkedin.com/in/jasdeep-ahluwalia/"
+              >
+                <LinkedInIcon />
               </IconButton>
-              <IconButton color="inherit" aria-label="Github" href="https://github.com/ahluwalij">
-              <GithubIcon />
+              <IconButton
+                color="inherit"
+                aria-label="Github"
+                href="https://github.com/ahluwalij"
+              >
+                <GithubIcon />
               </IconButton>
-              <IconButton color="inherit" aria-label="Email" href="mailto:jasdeep.a@outlook.com">
-              <EmailIcon />
+              <IconButton
+                color="inherit"
+                aria-label="Email"
+                href="mailto:jasdeep.a@outlook.com"
+              >
+                <EmailIcon />
               </IconButton>
-              <IconButton color="info" aria-label="Twitter" href="https://twitter.com/JazaScript">
-              <TwitterIcon />
+              <IconButton
+                color="info"
+                aria-label="Twitter"
+                href="https://twitter.com/JazaScript"
+              >
+                <TwitterIcon />
               </IconButton>
             </div>
           </div>

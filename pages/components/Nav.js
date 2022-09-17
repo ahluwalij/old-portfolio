@@ -44,10 +44,13 @@ function About() {
           : "fixed w-full h-20 shadow-xl "
       }
     >
-
       <div className="flex items-center justify-between w-full h-full px-10 2xl:px-16">
         {/* <Image src={logo} alt="logo" width="200" height="100" /> */}
-        <h3 className="text-4xl animate-pulse font-lobster pointer-events-none select-none">
+        <h3
+          className="text-4xl font-semibold 
+            bg-gradient-to-r bg-clip-text  text-transparent pb-2 animate-text
+            from-white via-sky-500 to-white font-lobster pointer-events-none select-none"
+        >
           Jazz
         </h3>
 

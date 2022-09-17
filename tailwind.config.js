@@ -8,6 +8,7 @@ module.exports = {
 theme: {
   extend: {
     animation: {
+      text: 'text 2s ease infinite',
       cursor: 'cursor .6s linear infinite alternate',
       type: 'type 1.8s ease-out 0.8s 1 normal both',
       'type-reverse': 'type 1.8s ease-out   both',
@@ -28,7 +29,7 @@ theme: {
         '75%, 80%': { width: '8ch' },
         '85%, 90%': { width: '9ch' },
         '95%': { width: '10ch' },
-      },
+      }
     },
    
   },
