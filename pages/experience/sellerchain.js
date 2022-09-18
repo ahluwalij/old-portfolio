@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
-import sellerchain from "/public/assets/experience/datadome.jpeg";
+import sellerchain from "/public/assets/experience/sellerchain.png";
 import Head from "next/head";
 
 const Sellerchain = () => {
@@ -36,6 +36,12 @@ const Sellerchain = () => {
           <Link href="https://www.youtube.com/watch?v=v_RfGE2vPys">
             <button className="px-8 py-2 mt-4 mr-8 text-gray-500 duration-150 ease-in-out hover:scale-105">
               Demo
+            </button>
+          </Link>
+
+          <Link href="/files/sellerchain_recommendation">
+            <button className="px-8 py-2 mt-4 mr-8 text-gray-500 duration-150 ease-in-out hover:scale-105">
+              Recommendation
             </button>
           </Link>
 

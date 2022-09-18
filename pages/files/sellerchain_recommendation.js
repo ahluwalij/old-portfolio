@@ -8,7 +8,7 @@ function Resume() {
       <iframe
         className="w-full h-screen"
         // src="/assets/experience/Jasdeep_Ahluwalia_Resume.pdf#toolbar=0"
-        src="/assets/experience/Jasdeep_Ahluwalia_Resume.pdf"
+        src="/assets/experience/Sellerchain_Recommendation.pdf"
       />
     </div>
   );
