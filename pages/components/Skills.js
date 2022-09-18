@@ -188,7 +188,7 @@ function Skills() {
               <div className="m-auto">
                 <Image
                   src="/assets/skills/figma.png"
-                  width="30px"
+                  width="28px"
                   height="40px"
                 />
               </div>

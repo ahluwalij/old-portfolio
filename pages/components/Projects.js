@@ -26,7 +26,7 @@ function Projects() {
                 Hash Automation
               </h3>
               <p className="pt-2 pb-4 text-center">Blockchain App</p>
-              <Link href="/Hash">
+              <Link href="/projects/hash">
                 <p className="py-2 text-lg font-bold text-center text-white bg-gray-500 rounded-lg cursor-pointer">
                   More
                 </p>
@@ -46,7 +46,7 @@ function Projects() {
             <div className="text-gray-500 hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] ">
               <h3 className="text-2xl tracking-wider text-center">Datadome Bypass</h3>
               <p className="pt-2 pb-4 text-center">Got & Cookie Handling</p>
-              <Link href="/Datadome">
+              <Link href="/projects/datadome">
                 <p className="py-2 text-lg font-bold text-center text-white bg-gray-500 rounded-lg cursor-pointer">
                   More
                 </p>

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import sellerchain from "../../public/assets/work/sellerchain.png";
-import proxyfarm from "../../public/assets/work/proxyfarm.png";
+import sellerchain from "/public/assets/experience/sellerchain.png";
+import proxyfarm from "/public/assets/experience/proxyfarm.png";
 
 function Work() {
   return (
@@ -26,7 +26,7 @@ function Work() {
                 Proxyfarm
               </h3>
               <p className="pt-2 pb-4 text-center">Premium Proxy Provider</p>
-              <Link href="/Proxyfarm">
+              <Link href="/experience/proxyfarm">
                 <p className="py-2 text-lg font-bold text-center text-white bg-gray-500 rounded-lg cursor-pointer">
                   More
                 </p>
@@ -46,7 +46,7 @@ function Work() {
             <div className="text-gray-500 hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] ">
               <h3 className="text-2xl tracking-wider text-center">Sellerchain</h3>
               <p className="pt-2 pb-4 text-center">Amazon Solutions</p>
-              <Link href="/Sellerchain">
+              <Link href="/experience/sellerchain">
                 <p className="py-2 text-lg font-bold text-center text-white bg-gray-500 rounded-lg cursor-pointer">
                   More
                 </p>

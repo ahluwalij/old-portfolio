@@ -1,5 +1,5 @@
 import Image from "next/image";
-import datadome from "../public/assets/projects/datadome.jpeg";
+import datadome from "/public/assets/projects/datadome.jpeg";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 import Head from "next/head";

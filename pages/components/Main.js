@@ -10,7 +10,7 @@ function Main() {
   return (
     <div className="w-full h-screen text-center">
       <Head>
-        <title>Jazz's Career</title>
+        <title>Jasdeep Ahluwalia - Fullstack Developer</title>
         <meta content="My page title" key="title" />
       </Head>
 
@@ -18,9 +18,14 @@ function Main() {
         <div>
           <div className="flex flex-col gap-3">
             <h1 className="text-5xl">Hi, I'm Jasdeep Ahluwalia</h1>
-            <h1 className="text-3xl font-lobster light" data-text="But you can call me Jazz">
-              But you can call me Jazz
-            </h1>
+            <div className="flex gap-1 mx-auto">
+              <h1 className="text-3xl font-lobster">
+                But you can call me 
+              </h1>
+              <h1 className="text-3xl font-lobster light" data-text="Jazz">
+                Jazz
+              </h1>
+            </div>
           </div>
           <div>
             {/* <h2 className="py-3 text-gray-500 uppercase ">

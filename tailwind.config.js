@@ -29,7 +29,17 @@ theme: {
         '75%, 80%': { width: '8ch' },
         '85%, 90%': { width: '9ch' },
         '95%': { width: '10ch' },
-      }
+      },
+      text: {
+        '0%, 100%': {
+           'background-size':'200% 200%',
+            'background-position': 'left center'
+        },
+        '50%': {
+           'background-size':'200% 200%',
+            'background-position': 'right center'
+        }
+    },
     },
    
   },

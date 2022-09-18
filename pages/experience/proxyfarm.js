@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
-import proxyfarm from "../public/assets/work/proxyfarm_banner.png";
+import proxyfarm from "/public/assets/experience/proxyfarm_banner.png";
 import Head from "next/head";
 
 const Proxyfarm = () => {

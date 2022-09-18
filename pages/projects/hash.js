@@ -1,14 +1,14 @@
 import Image from "next/image";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
-import sellerchain from "../public/assets/work/sellerchain.png";
+import hash from "/public/assets/projects/hash_banner.gif";
 import Head from "next/head";
 
-const Sellerchain = () => {
+const Hash = () => {
   return (
     <div className="w-full">
       <Head>
-        <title>Sellerchain Inc</title>
+        <title>Hash</title>
         <meta content="My page title" key="title" />
       </Head>
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
@@ -17,11 +17,11 @@ const Sellerchain = () => {
             className="absolute z-1"
             layout="fill"
             objectFit="cover"
-            src={sellerchain}
+            src={hash}
             alt="/"
           />
           <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-            <h2 className="py-2 pl-2 bg-gray-800/70">Sellerchain</h2>
+            <h2 className="py-2 pl-2 bg-gray-800/70">Hash Automation</h2>
           </div>
         </div>
       </div>
@@ -39,8 +39,8 @@ const Sellerchain = () => {
             </button>
           </Link>
 
-          <Link href="/#work">
-            <p className="mt-10 underline cursor-pointer">Back To Work Experiences</p>
+          <Link href="/#projects">
+            <p className="mt-10 underline cursor-pointer">Back To Projects</p>
           </Link>
         </div>
         <div className="col-span-4 p-4 shadow-xl md:col-span-1 rounded-xl">
@@ -75,4 +75,4 @@ const Sellerchain = () => {
   );
 };
 
-export default Sellerchain;
+export default Hash;
