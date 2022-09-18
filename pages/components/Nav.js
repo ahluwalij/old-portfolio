@@ -37,11 +37,10 @@ function About() {
 
   return (
     <div
-      style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
-          ? "fixed w-full h-20 shadow-xl shadow-white ease-in duration-300  z-[100] "
-          : "fixed w-full h-20 shadow-xl "
+          ? "bg-slate-800 fixed w-full h-20 shadow-xl shadow-white ease-in duration-300  z-[100] "
+          : "bg-slate-800 fixed w-full h-20 shadow-xl "
       }
     >
       <div className="flex items-center justify-between w-full h-full px-10 2xl:px-16">
