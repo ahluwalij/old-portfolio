@@ -2,6 +2,7 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { useRouter } from "next/router";
+import Button from "@mui/material/Button";
 
 function About() {
   const [nav, setNav] = useState(false);
@@ -54,31 +55,41 @@ function About() {
 
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
-            <Link href="/">
-              <li className="ml-10 text-sm text-white uppercase border-blue-100 hover:border-b">
-                Home
-              </li>
-            </Link>
-            <Link href="/#about">
-              <li className="ml-10 text-sm text-white uppercase border-blue-100 hover:border-b">
-                About
-              </li>
-            </Link>
-            <Link href="/#skills">
-              <li className="ml-10 text-sm text-white uppercase border-blue-100 hover:border-b">
-                Skills
-              </li>
-            </Link>
-            <Link href="/#projects">
-              <li className="ml-10 text-sm text-white uppercase border-blue-100 hover:border-b">
-                Projects
-              </li>
-            </Link>
-            <Link href="/#contact">
-              <li className="ml-10 text-sm text-white uppercase border-blue-100 hover:border-b">
-                Contact
-              </li>
-            </Link>
+            <Button
+              className="ml-10 text-sm text-white uppercase"
+              variant="outlined"
+              href="/"
+            >
+              Home
+            </Button>
+            <Button
+              className="ml-10 text-sm text-white uppercase"
+              variant="outlined"
+              href="/#about"
+            >
+              About
+            </Button>
+            <Button
+              className="ml-10 text-sm text-white uppercase"
+              variant="outlined"
+              href="/#skills"
+            >
+              Skills
+            </Button>
+            <Button
+              className="ml-10 text-sm text-white uppercase"
+              variant="outlined"
+              href="/#projects"
+            >
+              Projects
+            </Button>
+            <Button
+              className="ml-10 text-sm text-white uppercase"
+              variant="outlined"
+              href="/#contact"
+            >
+              Contact
+            </Button>
           </ul>
           <div onClick={handleNav} className="md:hidden">
             <AiOutlineMenu size={25} />
@@ -98,7 +109,13 @@ function About() {
         >
           <div className="flex items-center justify-between w-full">
             {/* <Image src={logo} width="200" height="100" alt="logo" color="white"/> */}
-            <h3 className="text-xl">DIALA ABUL.KHAIL</h3>
+            <h3
+          className="text-4xl font-semibold 
+            bg-gradient-to-r bg-clip-text  text-transparent pb-2 animate-text
+            from-white via-sky-500 to-white font-lobster pointer-events-none select-none"
+        >
+          Jazz
+        </h3>
 
             <div
               onClick={handleNav}
@@ -152,33 +169,6 @@ function About() {
                 </li>
               </Link>
             </ul>
-            {/* <div >
-              <p className="py-5 tracking-widest text-teal-600 uppercase">
-                Let's Connect!
-              </p> */}
-            {/* <div className="flex items-center justify-between my-full w-full sm:w-[80%]">
-                <div className="p-3 duration-200 ease-in rounded-full shadow-md cursor-pointer shadow-teal-200 hover:scale-110">
-                  <a href="https://www.linkedin.com/in/dialaabulkhail/">
-                    <FaLinkedinIn />
-                  </a>
-                </div>
-                <div className="p-3 duration-200 ease-in rounded-full shadow-md cursor-pointer shadow-teal-200 hover:scale-110">
-                  <a href="https://github.com/dialaabulkhail">
-                    <FaGithub />
-                  </a>
-                </div>
-                <div className="p-3 duration-200 ease-in rounded-full shadow-md cursor-pointer shadow-teal-200 hover:scale-110">
-                  <a href="mailto:diala.sh.98@gmail.com">
-                    <AiOutlineMail />
-                  </a>
-                </div>
-                <div className="p-3 duration-200 ease-in rounded-full shadow-md cursor-pointer shadow-teal-200 hover:scale-110">
-                  <a href="https://dialabk.hashnode.dev/">
-                    <BsFillPersonLinesFill />
-                  </a>
-                </div> */}
-            {/* </div> */}
-            {/* </div> */}
           </div>
         </div>
       </div>

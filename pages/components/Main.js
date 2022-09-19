@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GithubIcon from "@mui/icons-material/GitHub";
@@ -19,9 +20,7 @@ function Main() {
           <div className="flex flex-col gap-3">
             <h1 className="text-5xl">Hi, I'm Jasdeep Ahluwalia</h1>
             <div className="flex gap-1 mx-auto">
-              <h1 className="text-3xl font-lobster">
-                But you can call me 
-              </h1>
+              <h1 className="text-3xl font-lobster">But you can call me</h1>
               <h1 className="text-3xl font-lobster light" data-text="Jazz">
                 Jazz
               </h1>
@@ -40,7 +39,6 @@ function Main() {
                          </p> */}
             <hr className="py-1 mt-8" />
             <div className="flex items-center justify-between max-w-[330px] m-auto p-2">
-              <hr />
               <IconButton
                 color="info"
                 aria-label="LinkedIn"
@@ -70,6 +68,13 @@ function Main() {
                 <TwitterIcon />
               </IconButton>
             </div>
+            <Button
+              variant="contained"
+              className="bg-primary text-white font-serif rounded-full mt-2 max-w-[200px] w-full"
+              href="/files/resume"
+            >
+              Resume
+            </Button>
           </div>
         </div>
       </div>

@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
   const theme = createTheme({
     palette: {
       primary: {
-        main: "#2a9461",
+        main: "#0ea5e9",
       },
       secondary: {
         main: "#494c7d",

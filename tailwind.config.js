@@ -7,6 +7,10 @@ module.exports = {
 
 theme: {
   extend: {
+    colors: {
+      primary: '#0ea5e9',
+      secondary: '#494c7d',
+    },
     animation: {
       text: 'text 2s ease infinite',
       cursor: 'cursor .6s linear infinite alternate',
