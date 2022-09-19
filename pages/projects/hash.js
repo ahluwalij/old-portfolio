@@ -33,11 +33,11 @@ const Hash = () => {
             During my freshman year of college, I entered the world of Web3. I developed a script to automate contract trading and realized that there was a demand for the script. I soon built a UI for the script in an Electron, React Redux environment and began an alpha period. The app was supported on both Windows and Mac, persistent and non-persisten app data, AWS S3 stored metadata, and a fully on chain authentication system involving the user to have to verify that they own an NFT to enter the application. The app was styled using Tailwind CSS and SCSS.
           </p>
 
-          <Link href="https://www.youtube.com/watch?v=v_RfGE2vPys">
+          <a href="https://www.youtube.com/watch?v=v_RfGE2vPys" target="_blank" rel="noopener noreferrer">
             <button className="px-8 py-2 mt-4 mr-8 text-gray-500 duration-150 ease-in-out hover:scale-105">
               Demo
             </button>
-          </Link>
+          </a>
 
           <Link href="/#projects">
             <p className="mt-10 underline cursor-pointer">Back To Projects</p>

@@ -71,9 +71,9 @@ function Datadome() {
               www.footlocker.ca
             </p>
           </div>
-          <Link href="https://github.com/ahluwalij/Datadome-Reverse-Engineering">
+          <a href="https://github.com/ahluwalij/Datadome-Reverse-Engineering" target="_blank" rel="noopener noreferrer">
             <button className="px-8 py-2 mt-4 mr-8">Code(DEFUNCT)</button>
-          </Link>
+          </a>
         </div>
         <div className="col-span-4 p-4 shadow-xl md:col-span-1 rounded-xl">
           <div className="p-2">

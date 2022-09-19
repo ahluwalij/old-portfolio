@@ -30,17 +30,36 @@ const Proxyfarm = () => {
         <div className="col-span-4">
           <h2 className="">Overview</h2>
           <p className="pt-4 pb-4">
-            During my freshman year of college, I entered the world of Web3. I developed a script to automate contract trading and realized that there was a demand for the script. I soon built a UI for the script in an Electron, React Redux environment and began an alpha period. The app was supported on both Windows and Mac, persistent and non-persisten app data, AWS S3 stored metadata, and a fully on chain authentication system involving the user to have to verify that they own an NFT to enter the application. The app was styled using Tailwind CSS and SCSS.
+            Proxyfarm is a proxy company I started my senior year of high
+            school. Every line of code behind Proxyfarm was written by me, and
+            through this journey, I found my true love for development. In the
+            technical side of the business, I learned how to configure linux
+            servers with Squid, write shell scripts, use iptables for IP/network
+            configuration, port IPs over different ASNs, create a custom
+            storefront using React Redux with Stripe, and use Oauth2 and MongoDB
+            for customer accounts. Other than the technical skills required for
+            this role, I had to manage an employee doing customer support in our
+            company discord, reach out to other companies for partnerships,
+            manage the companies finances, and lastly, make deals with IP
+            providers around the world to lease their IPs under Proxyfarm.
           </p>
 
-          <Link href="https://www.youtube.com/watch?v=v_RfGE2vPys">
+          <a href="https://proxy-farm.com/" target="_blank" rel="noopener noreferrer">
             <button className="px-8 py-2 mt-4 mr-8 text-gray-500 duration-150 ease-in-out hover:scale-105">
-              Demo
+              Website
             </button>
-          </Link>
+          </a>
+
+          <a href="https://twitter.com/proxyfarm" target="_blank" rel="noopener noreferrer">
+            <button className="px-8 py-2 mt-4 mr-8 text-gray-500 duration-150 ease-in-out hover:scale-105">
+              User Success
+            </button>
+          </a>
 
           <Link href="/#work">
-            <p className="mt-10 underline cursor-pointer">Back To Work Experiences</p>
+            <p className="mt-10 underline cursor-pointer">
+              Back To Work Experiences
+            </p>
           </Link>
         </div>
         <div className="col-span-4 p-4 shadow-xl md:col-span-1 rounded-xl">
@@ -49,23 +68,31 @@ const Proxyfarm = () => {
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="flex items-center py-2">
                 <RiRadioButtonFill className="pr-1" />
-                Electron Forge
+                Squid Proxy
               </p>
               <p className="flex items-center py-2">
                 <RiRadioButtonFill className="pr-1" />
-                React / React Redux
+                HTML/SCSS/JS
               </p>
               <p className="flex items-center py-2">
                 <RiRadioButtonFill className="pr-1" />
-                Tailwind CSS
+                React Redux
               </p>
               <p className="flex items-center py-2">
                 <RiRadioButtonFill className="pr-1" />
-                AWS S3
+                Express.js
               </p>
               <p className="flex items-center py-2">
                 <RiRadioButtonFill className="pr-1" />
-                Solidity & Ethereum Blockchain
+                Stripe
+              </p>
+              <p className="flex items-center py-2">
+                <RiRadioButtonFill className="pr-1" />
+                MongoDB
+              </p>
+              <p className="flex items-center py-2">
+                <RiRadioButtonFill className="pr-1" />
+                IPtables
               </p>
             </div>
           </div>

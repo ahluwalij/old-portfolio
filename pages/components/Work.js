@@ -13,12 +13,12 @@ function Work() {
         <hr />
         <div className="grid gap-8 md:grid-cols-2">
           {/* Work Experience */}
-          <div className="relative flex items-center justify-center w-full h-auto mt-3 shadow-xl rounded-xl group hover:animate-pulse hover:bg-gradient-to-r from-white to-gray-100">
+          <div className="relative flex items-center justify-center w-full h-auto mt-3 rounded-xl group hover:animate-pulse hover:bg-gradient-to-r from-white to-gray-100">
             <Image
               className="group-hover:opacity-10 rounded-xl"
               src={proxyfarm}
-              width="350"
-              height="250"
+              width="450"
+              height="300"
               alt="/"
             />
             <div className="text-gray-500 hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] ">
@@ -35,12 +35,12 @@ function Work() {
           </div>
 
           {/* Work Experience */}
-          <div className="relative flex items-center justify-center w-full h-auto mt-3 shadow-xl rounded-xl group hover:animate-pulse hover:bg-gradient-to-r from-white to-gray-100">
+          <div className="relative flex items-center justify-center w-full h-auto mt-3 rounded-xl group hover:animate-pulse hover:bg-gradient-to-r from-white to-gray-100">
             <Image
               className="group-hover:opacity-10 rounded-xl"
               src={sellerchain}
-              width="350"
-              height="250"
+              width="450"
+              height="300"
               alt="/"
             />
             <div className="text-gray-500 hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] ">

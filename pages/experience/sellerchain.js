@@ -30,14 +30,30 @@ const Sellerchain = () => {
         <div className="col-span-4">
           <h2 className="">Overview</h2>
           <p className="pt-4 pb-4">
-            During my freshman year of college, I entered the world of Web3. I developed a script to automate contract trading and realized that there was a demand for the script. I soon built a UI for the script in an Electron, React Redux environment and began an alpha period. The app was supported on both Windows and Mac, persistent and non-persisten app data, AWS S3 stored metadata, and a fully on chain authentication system involving the user to have to verify that they own an NFT to enter the application. The app was styled using Tailwind CSS and SCSS.
+            Working in an angular .net core application, I've had mainly
+            frontend responsibilities in the effort to change Sellerchain's
+            recently acquired company, Shipment Maker Pro, into a more modern,
+            scalable app. This position required comfortability with working
+            with .NET, Angular, Visual Studio, Git, and coding in a
+            readable, scalable fashion. As for my frontend skills, I have been
+            able to follow modern and desirable practices while programming at
+            Sellerchain like Material UI and Mobile-First Development. In this
+            position, I have shown to be very comfortable with C#, Typescript,
+            Scss, Git, and working with a team of developers from different
+            backgrounds to accomplish a task. After the first day, I adapted and picked up my
+            responsibilities very quickly. All of the other developers at
+            Sellerchain have over 5 years of experience and I was able to learn
+            from them by asking questions and approaching issues with them, as
+            opposed to using them. I feel that the combination of my teamwork
+            with both the development team and the design team speaks a lot to
+            my adaptability and flexibility as a developer.
           </p>
 
-          <Link href="https://www.youtube.com/watch?v=v_RfGE2vPys">
+          <a href="https://beta.sellerchain.com/" target="_blank" rel="noopener noreferrer">
             <button className="px-8 py-2 mt-4 mr-8 text-gray-500 duration-150 ease-in-out hover:scale-105">
-              Demo
+              Website
             </button>
-          </Link>
+          </a>
 
           <Link href="/files/sellerchain_recommendation">
             <button className="px-8 py-2 mt-4 mr-8 text-gray-500 duration-150 ease-in-out hover:scale-105">
@@ -46,7 +62,9 @@ const Sellerchain = () => {
           </Link>
 
           <Link href="/#work">
-            <p className="mt-10 underline cursor-pointer">Back To Work Experiences</p>
+            <p className="mt-10 underline cursor-pointer">
+              Back To Work Experiences
+            </p>
           </Link>
         </div>
         <div className="col-span-4 p-4 shadow-xl md:col-span-1 rounded-xl">
@@ -55,11 +73,15 @@ const Sellerchain = () => {
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="flex items-center py-2">
                 <RiRadioButtonFill className="pr-1" />
-                Electron Forge
+                Angular 14
               </p>
               <p className="flex items-center py-2">
                 <RiRadioButtonFill className="pr-1" />
-                React / React Redux
+                Material Design
+              </p>
+              <p className="flex items-center py-2">
+                <RiRadioButtonFill className="pr-1" />
+                Git(Bitbucket)
               </p>
               <p className="flex items-center py-2">
                 <RiRadioButtonFill className="pr-1" />
@@ -67,11 +89,7 @@ const Sellerchain = () => {
               </p>
               <p className="flex items-center py-2">
                 <RiRadioButtonFill className="pr-1" />
-                AWS S3
-              </p>
-              <p className="flex items-center py-2">
-                <RiRadioButtonFill className="pr-1" />
-                Solidity & Ethereum Blockchain
+                Visual Studio
               </p>
             </div>
           </div>

@@ -50,8 +50,8 @@ html {
     content: attr(data-text);
     text-shadow: 0px 0px 20px var(--var-color);
     filter: blur(10px) brightness(0);
-    animation: flicker 2s linear forwards;
-    animation-delay: 1s;
+    animation: flicker 4s linear forwards;
+    animation-delay: 2s;
 }
 
 @keyframes flicker{

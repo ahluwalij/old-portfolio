@@ -13,7 +13,7 @@ function Projects() {
         <hr />
         <div className="grid gap-8 md:grid-cols-2">
           {/* project */}
-          <div className="relative flex items-center justify-center w-full h-auto mt-3 shadow-xl rounded-xl group hover:animate-pulse hover:bg-gradient-to-r from-white to-gray-100">
+          <div className="relative flex items-center justify-center w-full h-auto mt-3 rounded-xl group hover:animate-pulse hover:bg-gradient-to-r from-white to-gray-100">
             <Image
               className="group-hover:opacity-10 rounded-xl"
               src={hash}
@@ -35,7 +35,7 @@ function Projects() {
           </div>
 
           {/* project */}
-          <div className="relative flex items-center justify-center w-full h-auto mt-3 shadow-xl rounded-xl group hover:animate-pulse hover:bg-gradient-to-r from-white to-gray-100">
+          <div className="relative flex items-center justify-center w-full h-auto mt-3 rounded-xl group hover:animate-pulse hover:bg-gradient-to-r from-white to-gray-100">
             <Image
               className="group-hover:opacity-10 rounded-xl"
               src={datadome}
