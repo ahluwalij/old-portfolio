@@ -1,21 +1,20 @@
 import IconButton from "@mui/material/IconButton";
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import GithubIcon from '@mui/icons-material/GitHub';
-import EmailIcon from '@mui/icons-material/Email';
-import TwitterIcon from '@mui/icons-material/Twitter';
+import Button from "@mui/material/Button";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GithubIcon from "@mui/icons-material/GitHub";
+import EmailIcon from "@mui/icons-material/Email";
+import TwitterIcon from "@mui/icons-material/Twitter";
 import Link from "next/link";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import Image from "next/image";
 import emailjs from "@emailjs/browser";
-import Router from 'next/router'
+import Router from "next/router";
 
-  function Contact() {
-  
+function Contact() {
   function sendEmail(e) {
     e.preventDefault();
-    Router.push('/')
-    alert("Your message was sent. Thank you for contacting me!")
-    
+    Router.push("/");
+    alert("Your message was sent. Thank you for contacting me!");
 
     emailjs.sendForm(
       "service_19mckop",
@@ -25,14 +24,13 @@ import Router from 'next/router'
     );
   }
 
-  
   return (
     <div id="contact" className="w-full lg:h-screen">
       <div className="max-w-[750px] m-auto px-2 py-16 w-full">
         <h2 className="p-10 tracking-widest uppercase animate-pulse">
           Contact
         </h2>
-        <hr/>
+        <hr />
         <div className="grid gap-8 lg:grid-cols-5">
           {/* left */}
           <div className="w-full h-full col-span-3 p-4 shadow-xl lg:col-span-2 rounded-xl">
@@ -45,24 +43,37 @@ import Router from 'next/router'
                   src="https://img.freepik.com/free-vector/happy-women-sitting-talking-each-other-dialog-psychologist-tablet-flat-illustration_74855-14078.jpg?t=st=1655518257~exp=1655518857~hmac=a0300273195172e7cf2174814efede3112d07709efde352d507adddd596f4c05&w=740"
                 />
               </div>
+              <div></div>
               <div>
-              </div>
-              <div>
-                <p className="pt-6 text-center uppercas">Get in touch!</p>
-
-                <div className="flex items-center justify-between py-4 ">
-                <IconButton color="info" aria-label="LinkedIn" href="https://www.linkedin.com/in/jasdeep-ahluwalia/">
-              <LinkedInIcon />
-              </IconButton>
-              <IconButton color="inherit" aria-label="Github" href="https://github.com/ahluwalij">
-              <GithubIcon />
-              </IconButton>
-              <IconButton color="inherit" aria-label="Email" href="mailto:jasdeep.a@outlook.com">
-              <EmailIcon />
-              </IconButton>
-              <IconButton color="info" aria-label="Twitter" href="https://twitter.com/JazaScript">
-              <TwitterIcon />
-              </IconButton>
+                <p className="pt-6 text-center">Get in touch!</p>
+                <div className="flex gap-1 mt-4">
+                  <Button
+                    aria-label="Email"
+                    href="mailto:jasdeep.a@outlook.com"
+                  >
+                    <EmailIcon />
+                    <p className="text-sm ml-1 lowercase">
+                      jasdeep.a@outlook.com
+                    </p>
+                  </Button>
+                </div>
+                <div className="flex gap-1 mt-4">
+                  <Button href="https://twitter.com/JazaScript">
+                    <TwitterIcon />
+                    <p className="text-sm lowercase">@JazaScript</p>
+                  </Button>
+                </div>
+                <div className="flex gap-1 mt-4">
+                  <Button href="https://www.linkedin.com/in/jasdeep-ahluwalia/">
+                    <LinkedInIcon />
+                    <p className="text-sm lowercase ml-1">jasdeep-ahluwalia</p>
+                  </Button>
+                </div>
+                <div className="flex gap-1 mt-4">
+                  <Button href="https://github.com/ahluwalij">
+                    <GithubIcon />
+                    <p className="text-sm lowercase ml-1">ahluwalij</p>
+                  </Button>
                 </div>
               </div>
             </div>
@@ -80,7 +91,6 @@ import Router from 'next/router'
                       type="text"
                       name="name"
                       required=""
-                 
                     />
                   </div>
 
@@ -115,7 +125,6 @@ import Router from 'next/router'
                     name="subject"
                     required=""
                   />
-
                 </div>
 
                 <div className="flex flex-col py-2">
@@ -128,7 +137,10 @@ import Router from 'next/router'
                   ></textarea>
                 </div>
 
-                <button type="submit" className="w-full p-3 mt-4 text-gray-500 bg-white">
+                <button
+                  type="submit"
+                  className="w-full p-3 mt-4 text-gray-500 bg-white"
+                >
                   Send Message
                 </button>
               </form>
