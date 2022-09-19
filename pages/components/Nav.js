@@ -54,7 +54,7 @@ function About() {
         </h3>
 
         <div>
-          <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
+          <div style={{ color: `${linkColor}` }} className="hidden md:flex gap-2">
             <Button
               className="ml-10 text-sm text-white uppercase"
               variant="outlined"
@@ -90,7 +90,7 @@ function About() {
             >
               Contact
             </Button>
-          </ul>
+          </div>
           <div onClick={handleNav} className="md:hidden">
             <AiOutlineMenu size={25} />
           </div>
@@ -169,6 +169,7 @@ function About() {
                 </li>
               </Link>
             </ul>
+
           </div>
         </div>
       </div>
