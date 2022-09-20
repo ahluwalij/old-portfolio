@@ -54,37 +54,37 @@ function About() {
         </h3>
 
         <div>
-          <div style={{ color: `${linkColor}` }} className="hidden md:flex gap-2">
+          <div style={{ color: `${linkColor}` }} className="hidden md:flex gap-3">
             <Button
-              className="ml-10 text-sm text-white uppercase"
+              className="text-sm text-white uppercase"
               variant="outlined"
               href="/"
             >
               Home
             </Button>
             <Button
-              className="ml-10 text-sm text-white uppercase"
+              className="text-sm text-white uppercase"
               variant="outlined"
               href="/#about"
             >
               About
             </Button>
             <Button
-              className="ml-10 text-sm text-white uppercase"
+              className="text-sm text-white uppercase"
               variant="outlined"
               href="/#skills"
             >
               Skills
             </Button>
             <Button
-              className="ml-10 text-sm text-white uppercase"
+              className="text-sm text-white uppercase"
               variant="outlined"
               href="/#projects"
             >
               Projects
             </Button>
             <Button
-              className="ml-10 text-sm text-white uppercase"
+              className="text-sm text-white uppercase"
               variant="outlined"
               href="/#contact"
             >
