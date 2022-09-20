@@ -58,7 +58,7 @@ function About() {
             <Button
               className="text-sm text-white uppercase"
               variant="outlined"
-              href="/"
+              href="/#home"
             >
               Home
             </Button>

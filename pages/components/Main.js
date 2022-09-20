@@ -15,7 +15,7 @@ function Main() {
         <meta content="My page title" key="title" />
       </Head>
 
-      <div className="max-w-[750px] w-full h-full m-auto p-2 flex justify-center items-center ">
+      <div className="max-w-[750px] w-full h-full m-auto p-2 flex justify-center items-center " id="home">
         <div>
           <div className="flex flex-col gap-3">
             <h1 className="text-5xl">Hi, I'm Jasdeep Ahluwalia</h1>
