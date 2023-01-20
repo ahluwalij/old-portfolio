@@ -40,8 +40,8 @@ function About() {
     <div
       className={
         shadow
-          ? "bg-slate-800 fixed w-full h-20 shadow-xl shadow-white ease-in duration-300  z-[100] "
-          : "bg-slate-800 fixed w-full h-20 shadow-xl "
+          ? "bg-slate-800 fixed w-full h-20 shadow-xl shadow-white ease-in duration-300 z-[100]"
+          : "bg-slate-800 fixed w-full h-20 shadow-xl z-[100]"
       }
     >
       <div className="flex items-center justify-between w-full h-full px-10 2xl:px-16">

@@ -7,6 +7,10 @@ module.exports = {
 
 theme: {
   extend: {
+    screens: {
+      'xs': '480px',
+
+    },
     colors: {
       primary: '#0ea5e9',
       secondary: '#494c7d',
@@ -48,4 +52,7 @@ theme: {
    
   },
 },
+plugins: [
+  require('@tailwindcss/line-clamp'),
+],
 }

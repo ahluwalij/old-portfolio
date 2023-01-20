@@ -2,28 +2,31 @@ import React from "react";
 import Head from "next/head";
 import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import GithubIcon from "@mui/icons-material/GitHub";
-import EmailIcon from "@mui/icons-material/Email";
-import TwitterIcon from "@mui/icons-material/Twitter";
+import { Email, GitHub, LinkedIn, Twitter } from "@mui/icons-material";
 
 function Main() {
   return (
-    <div className="w-full h-screen text-center">
+    <div className="w-full">
       <Head>
         <title>Jasdeep Ahluwalia - Fullstack Developer</title>
         <meta content="My page title" key="title" />
       </Head>
 
-      <div className="max-w-[750px] w-full h-full m-auto p-2 flex justify-center items-center " id="home">
-        <div>
+      <div
+        className="max-w-[750px] w-full h-screen m-auto p-2 flex justify-center items-center"
+        id="home"
+      >
+        <div className="text-center">
           <div className="flex flex-col gap-3">
-            <h1 className="text-5xl">Hi, I'm Jasdeep Ahluwalia</h1>
+            <h1 className="text-5xl hidden sm:flex">I'm Jasdeep Ahluwalia</h1>
+            <h1 className="text-4xl xs:text-5xl sm:hidden">Jasdeep Ahluwalia</h1>
             <div className="flex gap-1 mx-auto">
-              <h1 className="text-3xl font-lobster">But you can call me</h1>
-              <h1 className="text-3xl font-lobster light" data-text="Jazz">
-                Jazz
-              </h1>
+              <div className="text-3xl font-lobster flex flex-col xs:flex-row gap-1">
+                But you can call me
+                <div className="text-3xl font-lobster light" data-text="Jazz">
+                  Jazz
+                </div>
+              </div>
             </div>
           </div>
           <div>
@@ -44,28 +47,28 @@ function Main() {
                 aria-label="LinkedIn"
                 href="https://www.linkedin.com/in/jasdeep-ahluwalia/"
               >
-                <LinkedInIcon />
+                <LinkedIn />
               </IconButton>
               <IconButton
                 color="inherit"
                 aria-label="Github"
                 href="https://github.com/ahluwalij"
               >
-                <GithubIcon />
+                <GitHub />
               </IconButton>
               <IconButton
                 color="inherit"
                 aria-label="Email"
                 href="mailto:jasdeep.a@outlook.com"
               >
-                <EmailIcon />
+                <Email />
               </IconButton>
               <IconButton
                 color="info"
                 aria-label="Twitter"
                 href="https://twitter.com/JazaScript"
               >
-                <TwitterIcon />
+                <Twitter />
               </IconButton>
             </div>
             <Button
