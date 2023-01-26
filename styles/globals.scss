@@ -39,7 +39,10 @@ html {
   Flicker Animation CSS
 */
 .light{
-    font-size: 2rem;
+    font-size: 1.25rem;
+    @media only screen and (min-width: 640px) {
+      font-size: 2rem
+    }
     color: var(--var-color);
     position: relative;
     font-weight: bold;

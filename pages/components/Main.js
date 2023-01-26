@@ -1,10 +1,13 @@
 import React from "react";
+import BIRDS from 'vanta/dist/vanta.birds.min'
 import Head from "next/head";
 import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import { Email, GitHub, LinkedIn, Twitter } from "@mui/icons-material";
+import Script from "next/script";
 
 function Main() {
+  let vantaRef = React.createRef()
   return (
     <div className="w-full">
       <Head>
@@ -16,14 +19,14 @@ function Main() {
         className="max-w-[750px] w-full h-screen m-auto p-2 flex justify-center items-center"
         id="home"
       >
+        <div id="background"></div>
         <div className="text-center">
           <div className="flex flex-col gap-3">
-            <h1 className="text-5xl hidden sm:flex">I'm Jasdeep Ahluwalia</h1>
-            <h1 className="text-4xl xs:text-5xl sm:hidden">Jasdeep Ahluwalia</h1>
-            <div className="flex gap-1 mx-auto">
-              <div className="text-3xl font-lobster flex flex-col xs:flex-row gap-1">
+            <h1 className="text-2xl sm:text-5xl flex">I'm Jasdeep Ahluwalia</h1>
+            <div className="flex flex-col xs:flex-row gap-1 mx-auto">
+              <div className="text-xl sm:text-3xl font-lobster flex flex-col xs:flex-row gap-1">
                 But you can call me
-                <div className="text-3xl font-lobster light" data-text="Jazz">
+                <div className="text-xl sm:text-3xl font-lobster light" data-text="Jazz">
                   Jazz
                 </div>
               </div>
